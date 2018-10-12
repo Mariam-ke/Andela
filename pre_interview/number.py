@@ -1,5 +1,8 @@
 def num_check(my_list):
     
+    #add list on numbers in the below empty list and check if it's a number or not, If it's not an int error message should say 'must 
+    #conatin numbers only'
+    #If numbers appear more than 3 times add to list then output remaining number
     numbers_list = []
     for num in my_list:
         if not isinstance(num, int):
